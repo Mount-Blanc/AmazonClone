@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
 
   return (
-    <>
+  
     <main>
-     <header>
+     <header className='header'>
       <p>logo</p>
       <div>addess</div>
       <div>
@@ -31,7 +29,6 @@ function App() {
      <section>7</section>
      <section>8</section>
 </main>
-    </>
   )
 }
 
