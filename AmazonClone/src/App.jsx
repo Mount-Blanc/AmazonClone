@@ -7,13 +7,22 @@ function App() {
   
     <main>
      <header className='header'>
+      <div className='nav-belt'>
       <div class="nav-left">
-      <p>logo</p>
-     <p>address</p>
+      <a>Logo</a>
+      <div>
+        <a>
+          <div>
+            <span>Hello</span>
+            <span>select your address</span>
+          </div>
+        </a>
+        </div>
       </div>
       <div className='nav-middle'>
         <div className='nav-search'>
           <form>
+            <button>All</button>
             <div className='nav-fill'>
          <input className='nav-input' type="search" placeholder='Search Amazon'></input>
 
@@ -26,6 +35,7 @@ function App() {
         <span>sign in</span>
         <span>return</span>
         <span>shopping cart</span>
+      </div>
       </div>
      </header>
      <nav>nav</nav>
