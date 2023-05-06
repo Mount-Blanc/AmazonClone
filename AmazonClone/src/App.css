@@ -1,6 +1,44 @@
-
+body {
+  margin:0
+}
 
 .header {
   display: flex;
-  align-items: center;
+  outline: 3px solid red;
+
+}
+
+.nav-middle {
+  width: auto;
+  outline: 3px solid red;
+  flex: 1 1 auto;
+}
+.nav-left {
+  width: auto;
+  outline: 3px solid red
+
+}
+.nav-right {
+  width: auto;
+  outline: 3px solid red
+
+}
+.nav-search {
+  outline: 3px solid blue;
+
+}
+
+.nav-fill {
+  display: flex;
+  outline: 3px solid blue;
+  flex: 1 1 auto;
+
+}
+
+form {
+  display: flex;
+}
+.nav-input {
+  display: flex;
+  width: 100%;
 }

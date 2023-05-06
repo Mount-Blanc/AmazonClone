@@ -7,18 +7,28 @@ function App() {
   
     <main>
      <header className='header'>
+      <div class="nav-left">
       <p>logo</p>
-      <div>addess</div>
-      <div>
-      <input type="search"></input>
-      <button>Submit</button>
+     <p>address</p>
       </div>
-      <div>
+      <div className='nav-middle'>
+        <div className='nav-search'>
+          <form>
+            <div className='nav-fill'>
+         <input className='nav-input' type="search" placeholder='Search Amazon'></input>
+
+            </div>
+      <button>Submit</button>
+      </form>
+      </div>
+      </div>
+      <div className='nav-right'>
         <span>sign in</span>
         <span>return</span>
         <span>shopping cart</span>
       </div>
      </header>
+     <nav>nav</nav>
      <hero>hero</hero>
      <section>1</section>
      <section>2</section>
