@@ -10,9 +10,9 @@ function App() {
       <div className='nav-belt'>
       <div class="nav-left">
       <a>Logo</a>
-      <div>
+      <div className='location-slot'>
         <a>
-          <div>
+          <div className='hello-block'>
             <span>Hello</span>
             <span>select your address</span>
           </div>

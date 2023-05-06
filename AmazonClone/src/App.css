@@ -15,6 +15,9 @@ height:60px
 
 }
 
+.location-slot {
+  width:auto;
+}
 .nav-middle {
   width: auto;
   outline: 3px solid red;
@@ -53,4 +56,9 @@ form {
 }
 a :hover {
   outline: 2px solid white;
+}
+
+.hello-block {
+  display: flex;
+  flex-flow: column nowrap;
 }
