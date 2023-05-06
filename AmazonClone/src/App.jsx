@@ -37,6 +37,10 @@ function App() {
         <span>shopping cart</span>
       </div>
       </div>
+      <div className='nav-main'>
+        <div className='nav-left'>All</div>
+        <div className='nav-fill'></div>
+      </div>
      </header>
      <nav>nav</nav>
      <hero>hero</hero>

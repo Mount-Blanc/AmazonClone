@@ -37,6 +37,7 @@ height:60px
 .nav-search {
   outline: 3px solid blue;
   margin-inline:1rem;
+  border-radius: 5px;
 
 }
 
@@ -54,11 +55,11 @@ form {
   display: flex;
   width: 100%;
 }
-a :hover {
-  outline: 2px solid white;
-}
 
 .hello-block {
   display: flex;
   flex-flow: column nowrap;
+}
+.nav-main {
+  background-color: #232f3e;
 }
