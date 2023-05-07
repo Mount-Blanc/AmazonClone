@@ -14,11 +14,11 @@ height:60px
 
 }
 
-.location-slot {
+.slot {
   width:auto;
   margin: .5rem;
 }
-.location-slot:hover {
+.slot:hover {
   outline: 1.5px solid white;
 }
 .nav-middle {
@@ -34,8 +34,8 @@ height:60px
 }
 .nav-right {
   width: auto;
-  outline: 3px solid red
-
+  outline: 3px solid red;
+  display: flex;
 }
 .nav-search {
   outline: 3px solid blue;

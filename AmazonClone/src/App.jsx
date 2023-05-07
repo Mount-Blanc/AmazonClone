@@ -10,7 +10,7 @@ function App() {
       <div className='nav-belt'>
       <div class="nav-left">
       <a>Logo</a>
-      <div className='location-slot'>
+      <div className='slot'>
         <a href='' className='nav-a'>
           <div className='hello-block'>
             <span>Hello</span>
@@ -32,9 +32,25 @@ function App() {
       </div>
       </div>
       <div className='nav-right'>
-        <span>sign in</span>
-        <span>return</span>
-        <span>shopping cart</span>
+        <div className='slot'>
+          <a href=''>
+                      <span>sign in</span>
+
+          </a>
+
+        </div>
+        <div className='slot'>
+      <a href=''>
+      <span>return</span>
+
+      </a>
+        </div>
+        <div className='slot'>
+        <a href=''>
+                  <span>shopping cart</span>
+
+        </a>
+        </div>
       </div>
       </div>
       <div className='nav-main'>
