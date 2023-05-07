@@ -32,21 +32,21 @@ function App() {
       </div>
       </div>
       <div className='nav-right'>
-        <div className='slot'>
-          <a href=''>
+        <div className='slot '>
+          <a href='' className='nav-a'>
                       <span>sign in</span>
 
           </a>
 
         </div>
-        <div className='slot'>
-      <a href=''>
+        <div className='slot '>
+      <a href='' className='nav-a'>
       <span>return</span>
 
       </a>
         </div>
-        <div className='slot'>
-        <a href=''>
+        <div className='slot '>
+        <a href='' className='nav-a'>
                   <span>shopping cart</span>
 
         </a>

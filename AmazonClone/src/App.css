@@ -70,3 +70,8 @@ form {
   background-color: #232f3e;
   height:39px;
 }
+
+.nav-a {
+  text-decoration: none;
+  color: white;
+}
