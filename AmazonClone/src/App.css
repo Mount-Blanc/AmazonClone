@@ -17,6 +17,7 @@ height:60px
 .slot {
   width:auto;
   margin: .5rem;
+  padding:5px;
 }
 .slot:hover {
   outline: 1.5px solid white;

@@ -32,9 +32,9 @@ function App() {
       </div>
       </div>
       <div className='nav-right'>
-        <span>
+        <div className='slot'>
           <span>EN</span>
-        </span>
+        </div>
         <div className='slot '>
           <a href='' className='nav-a '>
                       <span>Hello,sign in</span>
