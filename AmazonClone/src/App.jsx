@@ -11,7 +11,7 @@ function App() {
       <div class="nav-left">
       <a>Logo</a>
       <div className='location-slot'>
-        <a>
+        <a href='' className='nav-a'>
           <div className='hello-block'>
             <span>Hello</span>
             <span>select your address</span>
