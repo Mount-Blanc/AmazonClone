@@ -74,4 +74,9 @@ form {
 .nav-a {
   text-decoration: none;
   color: white;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  padding-right: 100px;
 }

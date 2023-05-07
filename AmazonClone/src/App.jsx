@@ -9,7 +9,7 @@ function App() {
      <header className='header'>
       <div className='nav-belt'>
       <div class="nav-left">
-      <a>Logo</a>
+      <a className='logo'>Logo</a>
       <div className='slot'>
         <a href='' className='nav-a'>
           <div className='hello-block'>
@@ -32,16 +32,21 @@ function App() {
       </div>
       </div>
       <div className='nav-right'>
+        <span>
+          <span>EN</span>
+        </span>
         <div className='slot '>
-          <a href='' className='nav-a'>
-                      <span>sign in</span>
+          <a href='' className='nav-a '>
+                      <span>Hello,sign in</span>
+                      <span>Accounts & Lists</span>
 
           </a>
 
         </div>
         <div className='slot '>
       <a href='' className='nav-a'>
-      <span>return</span>
+      <span>Returns</span>
+      <span>& Orders</span>
 
       </a>
         </div>
