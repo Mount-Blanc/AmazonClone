@@ -10,7 +10,6 @@ body {
 .nav-belt {
   background-color: #131921;
   display: flex;
-  margin: .5rem;
 height:60px
 
 }
@@ -54,6 +53,7 @@ form {
 .nav-input {
   display: flex;
   width: 100%;
+  padding: 7px 10px 10px 0;
 }
 
 .hello-block {
@@ -62,4 +62,5 @@ form {
 }
 .nav-main {
   background-color: #232f3e;
+  height:39px;
 }
