@@ -17,7 +17,9 @@ height:60px
 .slot {
   width:auto;
   margin: .5rem;
-  padding:5px;
+  padding:8px;
+  display: flex;
+  align-items: center;
 }
 .slot:hover {
   outline: 1.5px solid white;
