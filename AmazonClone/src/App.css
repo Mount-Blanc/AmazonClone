@@ -54,6 +54,9 @@ height:60px
   flex: 1 1 auto;
 
 }
+.nav-fill a {
+  padding-left:20px
+}
 
 form {
   display: flex;
@@ -73,6 +76,9 @@ form {
 .nav-main {
   background-color: #232f3e;
   height:39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-a {
@@ -94,4 +100,12 @@ form {
 }
 .select {
   padding-left: 23px;
+}
+.categories {
+  display: flex;
+}
+.nav-content {
+  display: flex;
+  padding-left: 10px;
+  flex: 1 1 auto;
 }

@@ -63,21 +63,24 @@ function App() {
         </div>
       </div>
       </div>
-      <div className='nav-main'>
+      <div className='nav-main '>
         <div >All</div>
-        <div className='nav-fill'>
+        <div className=' nav-content nav-fill'>
           <a href='' className='nav-a'>Customer Service</a>
-          <a href=''className='nav-a'>Best Sellers</a>
-          <a href className='nav-a'>New Releases</a>
+          <a href='' className='nav-a'>Best Sellers</a>
+          <a href='' className='nav-a'>Amazon Basics</a>
+          <a href='' className='nav-a'>New Releases</a>
           <a href='' className='nav-a'>Prime</a>
           <a href='' className='nav-a'>Today's Deals</a>
           <a href='' className='nav-a'>Music</a>
           <a href='' className='nav-a'>Books</a>
           <a href='' className='nav-a'>Registry</a>
           <a href='' className='nav-a'>Fashion</a>
-          <a href=''className='nav-a'>Amazon Home</a>
-          <a href=''className='nav-a'>Gift Cards</a>
+          <a href='' className='nav-a'>Amazon Home</a>
+          <a href='' className='nav-a'>Gift Cards</a>
           <a href='' className='nav-a'>Pharmacy</a>
+
+
 
         </div>
       </div>
