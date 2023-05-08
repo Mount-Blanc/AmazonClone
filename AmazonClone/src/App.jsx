@@ -1,6 +1,8 @@
 
 import './App.css'
 
+import Card from './Card'
+
 function App() {
 
   return (
@@ -8,7 +10,7 @@ function App() {
     <main>
      <header className='header'>
       <div className='nav-belt'>
-      <div class="nav-left">
+      <div className="nav-left">
       <a className='logo'>Logo</a>
       <div className='slot'>
         <a href='' className='nav-a'>
@@ -25,7 +27,7 @@ function App() {
             <div className='selector'>
               <span>All</span>
             </div>
-            <select class="select" title='Search'>
+            <select className="select" title='Search'>
             <option selected="selected" value="search-alias=aps">All Departments</option>
             </select>
             <div className='nav-fill'>
@@ -85,16 +87,8 @@ function App() {
         </div>
       </div>
      </header>
-     <nav>nav</nav>
-     <hero>hero</hero>
-     <section>1</section>
-     <section>2</section>
-     <section>3</section>
-     <section>4</section>
-     <section>5</section>
-     <section>6</section>
-     <section>7</section>
-     <section>8</section>
+      <Card/>
+
 </main>
   )
 }
