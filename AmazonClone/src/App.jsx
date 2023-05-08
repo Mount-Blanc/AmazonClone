@@ -22,7 +22,10 @@ function App() {
       <div className='nav-middle'>
         <div className='nav-search'>
           <form>
-            <button>All</button>
+            <div className='selector'>
+              <span>All</span>
+            </div>
+            <select class="select" title='Search'></select>
             <div className='nav-fill'>
          <input className='nav-input' type="search" placeholder='Search Amazon'></input>
 

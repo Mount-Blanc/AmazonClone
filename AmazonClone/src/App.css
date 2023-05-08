@@ -84,3 +84,14 @@ form {
 .logo {
   padding-right: 100px;
 }
+
+.selector {
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 12px;
+  color:black;
+  font-size:12px;
+}
+.select {
+  padding-left: 24px;
+}
